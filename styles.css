@@ -1,0 +1,145 @@
+/*
+Author: Felix Ortiz
+file name: styles.css
+Date: 08/30/2022
+*/
+/*CSS Reset*/
+body, header, nav, main, footer, h1, h2, div, img, ul, figure, figcaption{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* Style rules for webpage. Background and text color*/
+body{
+    background-color: #282634;
+    color: white;
+}
+/* Header Style rules */
+.topheader{
+    background-color: #282634;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    color: #ff4057;
+}
+
+h2{
+    text-align: center;
+}
+
+/* Styles rules for navigation area */
+nav{
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    font-size: 1.5em;
+    font-family: 'Francois One', sans-serif;
+    border-top: 1px solid #282634;
+}
+/*Style rules for main content*/
+main{
+    font-size: 1.25em;
+    font-family: 'Roboto Slab', serif;
+}
+/*image style rules*/
+img{
+    max-width: 100%;
+    display: block;
+}
+#image{
+    display: inline-block;
+    
+}
+
+/* style rules for mobile viewport*/
+#sticky{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: #282634;
+}
+
+.frame{
+    position: relative;
+    max-width: 450px;
+    margin: 2% auto;
+}
+
+.pictext{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #282634;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Style rule for box sizing applies to all elements*/
+* {
+    box-sizing: border-box;
+}
+/*Style rules for Table*/
+table{
+    border-style: solid;
+    border-width: thick;
+    border-color: #ff4057;
+    box-shadow: 10px 10px 10px #7b4150;
+}
+
+caption{
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+td{
+    padding: 10px;
+    font-weight: lighter;
+    border-style: double;
+}
+
+/*Style rules for Form elements*/
+fieldset{
+    margin: 2%;
+}
+
+fieldset legend{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    padding-top: 3%;
+}
+
+input{
+    margin-bottom: 2%;
+}
+
+.btn{
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5%;
+    background-color: #ff4057;
+    font-size: 1.25em;
+    border-radius: 10px;
+    color: #fff;
+}
