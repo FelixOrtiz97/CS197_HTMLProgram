@@ -143,3 +143,8 @@ input{
     border-radius: 10px;
     color: #fff;
 }
+/*Style rules for video*/
+video{
+    height: 350;
+    width: 300;
+}
